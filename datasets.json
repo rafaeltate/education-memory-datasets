@@ -1,0 +1,232 @@
+[
+  {
+    "name": "StudyChat",
+    "category": "教育对话",
+    "status": "公开数据入口已核实",
+    "source_url": "https://huggingface.co/datasets/wmcnicho/StudyChat",
+    "contents": "真实大学人工智能课程学生与ChatGPT对话；含层级对话行为标注",
+    "research_use": "跨会话画像、提问意图预测、下一轮问题排序",
+    "license_note": "CC BY 4.0；用途说明另见数据卡",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "MathDial",
+    "category": "教育对话",
+    "status": "公开数据入口已核实",
+    "source_url": "https://huggingface.co/datasets/eth-nlped/mathdial",
+    "contents": "数学辅导对话，真人教师与模拟学生协作采集",
+    "research_use": "教学动作、提示策略、教育场景方法验证",
+    "license_note": "使用前核对数据卡及各组成数据条款",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "Eedi QATD-2k",
+    "category": "教育对话",
+    "status": "公开数据入口已核实",
+    "source_url": "https://huggingface.co/datasets/Eedi/Question-Anchored-Tutoring-Dialogues-2k",
+    "contents": "题目锚定的数学辅导对话及题目元数据",
+    "research_use": "错因证据、辅导行为、画像适配",
+    "license_note": "CC BY-NC-SA 4.0；非商业研究用途",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "TSCC v2",
+    "category": "教育对话",
+    "status": "研究使用；获取流程待复核",
+    "source_url": "https://www.ecp.ep.liu.se/index.php/sltc/article/view/575",
+    "contents": "英语教师与学习者的一对一聊天课；教学焦点、纠错等标注",
+    "research_use": "语言学习画像与长期互动分析",
+    "license_note": "论文声明可免费用于研究；具体申请与再分发条款待核对",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "CIMA",
+    "category": "教育对话",
+    "status": "公开数据入口已核实",
+    "source_url": "https://github.com/kstats/CIMA",
+    "contents": "辅导对话、TutorActions和StudentActions；dataset.json",
+    "research_use": "对话行为预测与教育动作分类",
+    "license_note": "CC BY 2.5，见仓库README",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "GrounDialog",
+    "category": "教育对话",
+    "status": "论文已核实；原始数据下载待核对",
+    "source_url": "https://aclanthology.org/2023.bea-1.26/",
+    "contents": "面向语言学习的口语任务对话；repair与grounding标注",
+    "research_use": "理解障碍、澄清请求、互动意图",
+    "license_note": "论文开放不代表语料可自由再分发；待核对数据许可",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "TalkMoves",
+    "category": "课堂话语",
+    "status": "公开数据入口已核实",
+    "source_url": "https://github.com/SumnerLab/TalkMoves",
+    "contents": "K-12数学课堂转录；教师与学生话语动作标注",
+    "research_use": "教学互动与对话行为分类",
+    "license_note": "CC BY-NC-SA 4.0；主要是转录文本，不能直接称为音视频数据集",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "NCTE Transcripts",
+    "category": "课堂话语",
+    "status": "公开项目入口已核实",
+    "source_url": "https://github.com/ddemszky/classroom-transcript-analysis",
+    "contents": "小学数学课堂转录及相关课堂观察研究资源",
+    "research_use": "课堂语言、教学质量与话语模式分析",
+    "license_note": "下载及关联文件条款以原仓库为准",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "Tutorbot Corpus",
+    "category": "多模态教学",
+    "status": "论文已核实；原始数据下载待核对",
+    "source_url": "https://aclanthology.org/L14-1641/",
+    "contents": "多人面对面协作解题；音视频信号与导师行为标注",
+    "research_use": "参与度、注意状态、多模态互动参考",
+    "license_note": "不能把论文链接作为已开放数据下载证明",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "Ego4D",
+    "category": "通用多模态",
+    "status": "官方入口已核实；按当前平台流程获取",
+    "source_url": "https://ego4d-data.org/docs/",
+    "contents": "通用第一人称日常活动视频及多种任务标注",
+    "research_use": "多模态记忆方法参考；教育画像适配程度有限",
+    "license_note": "访问已迁至Lab22；按官方当前协议获取",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "UniSkill",
+    "category": "课程技能匹配",
+    "status": "公开资源入口已核实；需核对文件版本",
+    "source_url": "https://huggingface.co/datasets/nurlanm/UniSkill_dataset",
+    "contents": "课程文本与技能匹配相关资源；此前实验使用过Excel",
+    "research_use": "文本技能匹配与BERT分类基线",
+    "license_note": "数据卡标Apache-2.0；当前预览显示PDF，不能假定与旧Excel版本相同",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "PGDataset / PGTask",
+    "category": "画像生成",
+    "status": "官方代码及下载说明已核实",
+    "source_url": "https://github.com/ruinunca/PGTask",
+    "contents": "对话话语与画像句子的配对资源",
+    "research_use": "画像生成训练与评估方法参考",
+    "license_note": "按项目下载说明取数据；数据许可需单独核对",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "LoCoMo",
+    "category": "长期记忆评测",
+    "status": "公开数据入口已核实",
+    "source_url": "https://github.com/snap-research/locomo",
+    "contents": "长跨度多会话对话、问答与事件摘要标注",
+    "research_use": "长期检索、时间推理、多跳问答",
+    "license_note": "按原仓库数据许可引用和使用",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "LongMemEval",
+    "category": "长期记忆评测",
+    "status": "公开数据及格式说明已核实",
+    "source_url": "https://github.com/xiaowu0162/LongMemEval",
+    "contents": "长历史会话与问答；S/M/oracle版本",
+    "research_use": "跨会话检索、信息更新与记忆问答",
+    "license_note": "按官方数据包及许可使用",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "PersonaMem",
+    "category": "动态画像评测",
+    "status": "公开数据及格式说明已核实",
+    "source_url": "https://github.com/bowen-upenn/PersonaMem",
+    "contents": "用户画像、偏好演化上下文与问答；不同上下文长度版本",
+    "research_use": "动态画像及个性化回答评估",
+    "license_note": "官方仓库链接到Hugging Face数据；按所选版本许可使用",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "PrefEval",
+    "category": "偏好评测",
+    "status": "公开项目入口已核实",
+    "source_url": "https://github.com/amazon-science/PrefEval",
+    "contents": "显式和隐式偏好、多会话偏好遵循任务",
+    "research_use": "讲解偏好的记忆与使用评测思路",
+    "license_note": "通用偏好不能直接当作教育讲解偏好金标准；按原项目条款使用",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "MemoryAgentBench",
+    "category": "长期记忆评测",
+    "status": "公开项目入口已核实",
+    "source_url": "https://github.com/HUST-AI-HYZ/MemoryAgentBench",
+    "contents": "增量多轮交互下的检索、学习、长程理解、冲突解决任务",
+    "research_use": "诊断记忆更新和冲突处理能力",
+    "license_note": "各组成数据来源和许可分别遵循原项目",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "EduChat",
+    "category": "相关代码与模型资源",
+    "status": "开源项目；非单一已核实原始学生数据集",
+    "source_url": "https://github.com/ECNU-ICALK/EduChat",
+    "contents": "教育对话模型、训练及数据处理相关资源",
+    "research_use": "教育回应适配和训练流程参考",
+    "license_note": "模型、代码、训练语料分别核对，不能合并推定为同一许可",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "Who Am I? / dialogue_student_sim",
+    "category": "相关代码与模型资源",
+    "status": "代码公开；原始数据仍声明待发布",
+    "source_url": "https://github.com/umass-ml4ed/dialogue_student_sim",
+    "contents": "基于历史画像的学生模拟、画像代理与评估代码",
+    "research_use": "画像结构、提取和下游学生模拟方法参考",
+    "license_note": "当前README声明去标识化完成后发布数据；不可标记为已拿到原始数据",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "LLMsAsEducationalAnalysts",
+    "category": "相关代码与研究资源",
+    "status": "公开项目入口已核实；原始学生数据开放范围待核对",
+    "source_url": "https://github.com/edavalosanaya/LLMsAsEducationalAnalysts",
+    "contents": "多模态阅读评估项目；预处理、评价标准和分析代码",
+    "research_use": "多模态证据到教育评估报告的流程参考",
+    "license_note": "仓库代码MIT标识不能自动覆盖全部原始眼动和学生数据",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "Classroom-Act",
+    "category": "待核实旧记录",
+    "status": "未核实",
+    "source_url": "",
+    "contents": "此前对话曾出现此名称，未定位可靠原始数据源",
+    "research_use": "待确认准确名称后再评估",
+    "license_note": "不列入已开放数据",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "TALM Classroom Corpus",
+    "category": "待核实旧记录",
+    "status": "未核实",
+    "source_url": "",
+    "contents": "此前对话曾出现此名称，未定位可靠原始数据源",
+    "research_use": "待确认准确名称后再评估",
+    "license_note": "不列入已开放数据",
+    "checked_on": "2026-11-06"
+  },
+  {
+    "name": "Google Education Dialogue Dataset",
+    "category": "待核实旧记录",
+    "status": "名称不充分，未核实",
+    "source_url": "",
+    "contents": "此前提及的泛称，未能确定唯一对应项目",
+    "research_use": "需先定位原始论文和数据发布页",
+    "license_note": "不据此构造下载链接或宣称已开源",
+    "checked_on": "2026-11-06"
+  }
+]
